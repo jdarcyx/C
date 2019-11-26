@@ -43,8 +43,7 @@ void erro_fatal (int err_no, char *err_msg) {
 
 void uso (void) {
 	printf("\nUso:\n");
-	printf("  pinger [opções] <origem> <destino>\n\n");
-	printf("<origem>\t\tEndereço de origem\n");
+	printf("  pinger [opções] <destino>\n\n");
 	printf("<destino>\t\tEndereço de destino\n");
 	printf("\nOpções:\n");
 	printf("  -n <número>\t\tNúmero de pacotes a ser enviados. 0 para infinito. (Padrão: 1000)\n");
